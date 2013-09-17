@@ -327,6 +327,7 @@ aside {
 	border-radius: 7px;
 	clear: both; 
 }
+}
 
 
 /* mobile landscape size to tablet standard (devices and browser) */
@@ -345,5 +346,23 @@ float: none;
 /* mobile portrait size to mobile landscape  portrait (devices and browser) */
 
 @media only screen and (max-width: 479px) {
+
+
+
+
+#halleydetail p {
+	
+	width:  91.666666666%;  /*880px;*/
+	-moz-column-count: 1;
+	-moz-column-gap: 10px; 
+	-o-column-count: 1;
+	-o-column-gap: 10px; 
+	-webkit-column-count: 1;
+	-webkit-column-gap: 10px; 
+	column-count: 1;
+	background-color: #5F81C1;
+	border-radius: 7px;
+	clear: both; 
+}
 
 }
