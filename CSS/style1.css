@@ -1,0 +1,318 @@
+/*-------CSS for Comet site --------*/
+
+body {  
+	color: black;
+	background-color:#333841;   
+	padding: 0;
+	line-height: 125%;    
+	max-width: 960px;
+	margin: 0 auto;  
+	font: 100%; 
+}
+	
+body p {
+	margin 10px; 
+}
+
+#wrapper {
+	width: 100%; 
+	border-right: solid; 
+	border-left: solid; 
+	border-color: rgba(126, 126, 126, .5); 
+	background-color: #5F81C1; 
+	border-width: 2px;   
+	-moz-box-shadow: 	2px 0px 5px #172742, -2px 0px 5px #172742; 
+	-o-box-shadow:		2px 0px 5px #172742, -2px 0px 5px #172742; 
+	-webkit-box-shadow: 2px 0px 5px #172742, -2px 0px 5px #172742;
+	box-shadow: 		2px 0px 5px #172742, -2px 0px 5px #172742; 
+	 
+}
+/*----- Header ----------*/
+Header {
+	background-image: -o-linear-gradient(bottom, #5F82C1 20%, #5F82C1 48%, #7E7E7E 83%);
+	background-image: -moz-linear-gradient(bottom, #5F82C1 20%, #5F82C1 48%, #7E7E7E 83%);
+	background-image: -webkit-linear-gradient(bottom, #5F82C1 20%, #5F82C1 48%, #7E7E7E 83%);
+	background-image: -ms-linear-gradient(bottom, #5F82C1 20%, #5F82C1 48%, #7E7E7E 83%);
+	background-image: linear-gradient(bottom, #5F82C1 20%, #5F82C1 48%, #7E7E7E 83%);
+	
+}
+	
+header li, footer li {
+   list-style: none; 
+}
+
+header nav {
+	float: right;
+/* 	width: 52.083333%;  /*500px/960 */
+}
+
+header li {
+	float: right; 
+	width: 140px; 
+}
+
+Header a:link {
+	text-decoration: none;
+	height: 35px; 
+	line-height: 35px;
+	text-align: center;
+	color: white; 
+	background-color: #5F81C1; 
+	display: block; 
+	outline: none;
+	
+} 
+
+Header a:visited {
+	color: white; 
+}
+
+Header a:hover {
+	color: #0E2755; 
+}
+
+Header a:active {
+	color: #C5A931; 
+}
+
+/*-----------header end-----------*/
+
+li {
+	list-style: circle;
+}
+
+
+a:link	{
+	color: #0E2755;
+	text-decoration: none; 
+}
+
+a:visited	{
+	color: white; 
+}
+
+a:hover	{
+	color: white;
+}
+
+a:active	{
+	color: #C5A931;
+}
+
+p { 
+	margin: 0 15px;
+	color: white;
+	width: 200px;
+	line-height: 125%; 
+	font-size: 1.5em;
+	float: left;
+	
+}
+
+h1 {
+	margin: 0;
+	text-indent: -990000px;
+}
+
+h2, h3 {  
+	padding: 0 20px; 
+	line-height: 125%;    
+	color: white;
+	text-shadow: 2px 2px 2px #7992C1; 
+	font-size: 2em; 
+	margin: 50px 0 20px;
+	clear: left; 	
+}
+
+/*--------main photo start  ------*/
+
+#mainphoto img {
+	float: left;
+	margin: 0 0 30px 0;
+	border: solid 7px rgba(126, 126, 126, .5);
+	border-radius: 7px;
+}
+
+#mainphoto p {
+	padding: 0 10px;
+}
+
+#mainpic {
+	padding: 10px; 
+}
+/*--------main pic end ------*/
+
+
+/*-------gallery here--------*/
+
+
+ 
+dl {
+	
+	list-style-type: none; 
+	background-color: rgba(126, 126, 126, .8);
+	padding: 3px;
+	border-radius: 7px;
+	width: 97.916667% /*940px;*/
+	margin: 20px auto 20px;
+	overflow: hidden;
+}
+
+dl li {
+	float: left; 
+	Margin: 3px;	
+	}
+
+.gallery {
+	border: 1px solid white;
+	display: block;
+	width: 300px; 
+	height: 195px;
+	outline: 0;   
+}
+
+.gallery image {
+	max-width: 100%
+}
+
+
+/*-------gallery end--------*/
+
+#halleydetail {
+	margin: 0 auto;
+}
+#halleydetail p {
+	color: #5F81C1;
+	font-size: .75em; 
+	padding: 20px;
+	margin: 20px;  
+	width:  91.666667em;  /* 880px;
+	-moz-column-count: 3;
+	-moz-column-gap: 10px; 
+	-o-column-count: 3;
+	-o-column-gap: 10px; 
+	-webkit-column-count: 3;
+	-webkit-column-gap: 10px; 
+	column-count: 3;
+	column-gap: 10px;
+	background-image: url(../images/stars_1.jpg);
+	background-color: #5F81C1;
+	border-radius: 7px;
+	clear: both; 
+}
+
+
+
+#maincontent p {
+
+	color: white;
+	padding: 5px 15px;
+	margin: 0 5px 20px 5px;
+	font-size: .9em;
+	width: 540px;
+	float: left;
+}
+
+/*-------fun facts-------*/
+
+aside {
+	color: white;
+	width: 330px;
+	padding: 0 20px 5px 20px;
+	Float: left;
+	margin: -115px 0 0 0;
+}
+
+#funfacts {
+	list-style: circle;		 
+}
+
+/*-------fun facts end-------*/
+
+
+article {
+	color: #C5A931; 
+	font-size: 1.2em; 
+	clear: both;
+	padding-left: 15px;
+}
+
+/*------- footer start-------*/
+
+
+footer {
+	color: white; 
+	padding-top: 50px; 
+	background-color: rgba(126, 126, 126, .5);
+	font-size: .5em; 
+	margin: 30px 0 0 0;
+	padding: 10px; 
+}
+
+
+footer nav {
+	float: right;
+	width: 400px;
+	font-size: 1.5em; 
+}
+
+footer li {
+	float: right; 
+	width: 100px; 
+}
+
+footer a:link {
+	text-decoration: none;
+	font-size: 1em;
+	height: 25px; 
+	line-height: 25px;
+	text-align: center;
+	color: white; 
+	display: block; 
+	outline: none;	
+} 
+
+footer a:visited {
+	color: white; 
+}
+
+
+footer a:hover {
+	color: #0E2755; 
+}
+
+footer a:active {
+	color: #C5A931; 
+}
+
+/*------- footer end-------*/
+
+
+
+
+/* =media queries 
+==============================================*/ 
+
+
+/* tablet portrait size to standard 960 (devices and browser) */
+
+@media only screen and (min-width: 768px) and (max-width: 959) {
+}
+
+
+/* mobile landscape size to tablet standard (devices and browser) */
+
+@media only screen and (min-width: 480) and (max-width: 767px) {
+
+
+#funfacts {
+
+float: none; 
+}
+
+}
+/* mobile portrait size to mobile landscape  portrait (devices and browser) */
+
+@media only screen and (max-width: 479px) {
+
+}
