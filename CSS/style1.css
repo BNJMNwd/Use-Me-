@@ -335,7 +335,20 @@ aside {
 @media only screen and (min-width: 480) and (max-width: 767px) {
 
 
-
+#halleydetail p {
+	
+	width:  91.666666666%;  /*880px;*/
+	-moz-column-count: none;
+	-moz-column-gap: 10px; 
+	-o-column-count: none;
+	-o-column-gap: 10px; 
+	-webkit-column-count: none;
+	-webkit-column-gap: 10px; 
+	column-count: none;
+	background-color: #5F81C1;
+	border-radius: 7px;
+	clear: both; 
+}
 
 #funfacts {
 
@@ -349,17 +362,16 @@ float: none;
 
 
 
-
 #halleydetail p {
 	
 	width:  91.666666666%;  /*880px;*/
-	-moz-column-count: 1;
+	-moz-column-count: none;
 	-moz-column-gap: 10px; 
-	-o-column-count: 1;
+	-o-column-count: none;
 	-o-column-gap: 10px; 
-	-webkit-column-count: 1;
+	-webkit-column-count: none;
 	-webkit-column-gap: 10px; 
-	column-count: 1;
+	column-count: none;
 	background-color: #5F81C1;
 	border-radius: 7px;
 	clear: both; 
