@@ -126,21 +126,22 @@ h2, h3 {
 
 /*--------main photo start  ------*/
 
-	#mainphoto img {
-	float: left;
-	margin: 0 0 30px 0;
-	border: solid 7px rgba(126, 126, 126, .5);
-	border-radius: 7px;
-} 
+#mainphotosection img {
+	 
+	border: 7px solid rgba(126, 126, 126, .5);
+	border-radius: 00.729166666%;
+	float: left; 
+	margin-left: 10px;
+	width: 58.333333333%;
+	height: 42.8125%
+}
 
-#mainphoto p {
+#mainphotosection p {
 	padding: 0 10px;
 }
 
-#mainpic {
-	float: left;
-	margin-left: 10px; 
-}
+
+
 /*--------main pic end ------*/
 
 
@@ -328,11 +329,20 @@ wrapper {
 }
 
 
+#mainphotosection img {
+	float: none; 
+	margin: 0 auto;
+}
+
+#mainphotosection p {	
+	margin: 15px auto;
+}
 
 
 #wrapper {
 background-color: pink;
 }
+
 
 
 }
