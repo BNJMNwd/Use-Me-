@@ -303,78 +303,31 @@ footer a:active {
 
 /* tablet portrait size to standard 960 (devices and browser) */
 
-@media only screen and (min-width: 768px) and (max-width: 959) {
+@media screen and (min-width: 768px) and (max-width: 959px) {
 
-
-aside {
-	margin-top: 25;
+#wrapper {
+	background-color: red; 
 }
 
-
-#halleydetail p {
-	
-	width:  91.666666666%;  /*880px;*/
-	-moz-column-count: 2;
-	-moz-column-gap: 10px; 
-	-o-column-count: 2;
-	-o-column-gap: 10px; 
-	-webkit-column-count: 2;
-	-webkit-column-gap: 10px; 
-	column-count: 2;
-	column-gap: 10px;
-	background-image: url(../images/stars_1.jpg);
-	background-color: #5F81C1;
-	border-radius: 7px;
-	clear: both; 
 }
-}
-
 
 /* mobile landscape size to tablet standard (devices and browser) */
 
-@media only screen and (min-width: 480) and (max-width: 767px) {
+@media only screen and (min-width: 480px) and (max-width: 767px) {
 
-
-#halleydetail p {
-	
-	width:  91.666666666%;  /*880px;*/
-	-moz-column-count: none;
-	-moz-column-gap: 10px; 
-	-o-column-count: none;
-	-o-column-gap: 10px; 
-	-webkit-column-count: none;
-	-webkit-column-gap: 10px; 
-	column-count: none;
-	background-color: #5F81C1;
-	border-radius: 7px;
-	clear: both; 
+#wrapper {
+	background-color: pink; 
 }
 
-#funfacts {
-
-float: none; 
-}
 
 }
+
 /* mobile portrait size to mobile landscape  portrait (devices and browser) */
 
 @media only screen and (max-width: 479px) {
 
-
-
-#halleydetail p {
-	
-	width:  91.666666666%;  /*880px;*/
-	-moz-column-count: none;
-	-moz-column-gap: 10px; 
-	-o-column-count: none;
-	-o-column-gap: 10px; 
-	-webkit-column-count: none;
-	-webkit-column-gap: 10px; 
-	column-count: none;
-	background-color: #5F81C1;
-	border-radius: 7px;
-	clear: both; 
+#wrapper {
+	background-color: green; 
 }
 
 }
