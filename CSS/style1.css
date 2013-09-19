@@ -137,7 +137,7 @@ h2, h3 {
 }
 
 #mainphotosection p {
-	padding: 0 10px;
+	padding: 10px;
 }
 
 
@@ -322,6 +322,17 @@ wrapper {
 }
 
 
+#mainphotosection img {
+	float: none; 
+	width: 85%;
+}
+
+#mainphotosection p {
+	
+	font-size: 1em;
+	padding: 0 10px;
+	width: 85%;
+}	
 
 #halleydetail p {
 	font-size: 1.5 em; 
@@ -348,6 +359,10 @@ wrapper {
 
 article {
 	text-indent: -990000px;
+}
+
+footer nav {
+	display: none;
 }
 
 
@@ -400,18 +415,17 @@ h2, h3 {
 	margin: 50px auto 20px auto; 	
 }
 
-
 #mainphotosection img {
-	 
 	float: none; 
-	margin: 10px auto;
 	width: 85%;
+	display: block;
+	margin: 0 auto; 
 }
 
 #mainphotosection p {
-	
+	text-align: center;
 	font-size: 1em;
-	padding: 0 10px;
+	padding: 10px;
 	width: 85%;
 }	
 
@@ -511,16 +525,16 @@ h2, h3 {
 
 
 #mainphotosection img {
-	 
 	float: none; 
-	margin: 10px auto;
 	width: 85%;
+	display: block;
+	margin: 0 auto; 
 }
 
 #mainphotosection p {
-	
+	text-align: center;
 	font-size: 1em;
-	padding: 0 10px;
+	padding: 10px;
 	width: 85%;
 }	
 	
