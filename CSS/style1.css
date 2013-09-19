@@ -114,8 +114,8 @@ h1 {
 	text-indent: -990000px;
 }
 
-h2, h3 {  
-	padding: 0 20px; 
+h2, h3, h4 {  
+	padding: 10px 20px; 
 	line-height: 125%;    
 	color: white;
 	text-shadow: 2px 2px 2px #7992C1; 
@@ -149,33 +149,29 @@ h2, h3 {
 
 
  
-dl {
-	
-	list-style-type: none; 
-	background-color: rgba(126, 126, 126, .8);
-	padding: 3px;
-	border-radius: 7px;
-	width: 97.916667% /*940px;*/
-	margin: 20px auto 20px;
+dl { 
+	list-style-type: none;
+	width: 95.2083333% ;/* 914px; */
+	margin: 0 auto; 
+	border-radius: .7291667%;
+	padding: .7291667%;
+	background-color: rgba(126, 126, 126, .6);
 	overflow: hidden;
 }
 
 dl li {
 	float: left; 
-	Margin: 3px;	
+	Margin: .7291667%;	
 	}
 
 .gallery {
 	border: 1px solid white;
 	display: block;
-	width: 300px; 
+	width: 297; 
 	height: 195px;
 	outline: 0;   
 }
 
-.gallery image {
-	max-width: 100%
-}
 
 
 /*-------gallery end--------*/
@@ -325,11 +321,14 @@ wrapper {
 #mainphotosection img {
 	float: none; 
 	width: 85%;
+	display: block;
+	margin: 0 auto; 
 }
 
 #mainphotosection p {
+	margin: 0 auto;
+	text-align: center;
 	font-size: 1em;
-	padding: 0 10px;
 	width: 85%;
 }	
 
@@ -416,7 +415,7 @@ header li {
 }
 
 
-h2, h3 {  
+h2, h3, h4 {  
 	padding-top: 40px;
 	text-align: center; 
 	margin: 50px auto 20px auto; 	
@@ -457,6 +456,12 @@ h2, h3 {
 }
 
 
+dl li {
+	float: none; 
+	Margin: 10px auto;
+	width: 297px;
+	
+	}
 
 aside {
 	color: white;
@@ -528,7 +533,7 @@ header li {
 	
 }
 
-h2, h3 {  
+h2, h3, h4 {  
 	font-size: 1.5em;
 	padding-top: 10px;
 	text-align: center; 
@@ -569,6 +574,12 @@ h2, h3 {
 	column-gap: 0px;
 }
 
+
+dl li {
+	float: none; 
+	Margin: 10px auto;	
+	width: 297px;
+	}
 
 aside {
 	color: white;
