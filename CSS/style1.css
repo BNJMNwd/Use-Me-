@@ -211,7 +211,7 @@ dl li {
 	padding: 5px 15px;
 	margin: 0 5px 20px 5px;
 	font-size: .9em;
-	width: 540px;
+	width: 56.25%;
 	float: left;
 }
 
@@ -219,7 +219,7 @@ dl li {
 
 aside {
 	color: white;
-	width: 300px;
+	width: 31.25%;
 	padding: 0 20px 5px 20px;
 	Float: left;
 	margin: -115px 0 0 0;
@@ -306,6 +306,12 @@ footer a:active {
 
 body {  
 	background-color:#5F81C1;   
+	
+	
+#wrapper {
+background-color: none;
+}
+
 }
 
 wrapper {
@@ -318,6 +324,7 @@ wrapper {
 
 
 #halleydetail p {
+	font-size: 1.5 em; 
 	-moz-column-count: 2;
 	-moz-column-gap: 10px; 
 	-o-column-count: 2;
@@ -339,9 +346,6 @@ wrapper {
 }
 
 
-#wrapper {
-background-color: pink;
-}
 
 
 
@@ -351,16 +355,26 @@ background-color: pink;
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 
+#wrapper {
+background-color: none;
+}
 
+#maincontent p {
+
+	color: white;
+	padding: 5px 15px;
+	margin: 0 5px 20px 5px;
+	font-size: .9em;
+	width: 95%;
+	float: none;
+}
 
 header nav {
 	float: none;
 } 
 
 
-#wrapper {
-background-color: gray;
-}
+
 
 #logo {
 	float: none;
@@ -370,7 +384,7 @@ background-color: gray;
 header li {
 	font-size: 1.5 em; 
 	float: none; 
-	width: 200px; 
+	width: 300px; 
 	margin: 0 auto; 
 	margin-bottom: 5px; 
 	border: 2px solid white;
@@ -379,27 +393,35 @@ header li {
 }
 
 
+#halleydetail {
+	width: 95%;
+	margin: 0 auto;
+}
+
 
 #halleydetail p {
-	font-size: 1.2em; 
+	margin: 0;
+	font-size: 1em; 
 	-moz-column-count: 1;
-	-moz-column-gap: 10px; 
+	-moz-column-gap: 0px; 
 	-o-column-count: 1;
-	-o-column-gap: 10px; 
+	-o-column-gap: 0px; 
 	-webkit-column-count: 1;
-	-webkit-column-gap: 10px; 
+	-webkit-column-gap: 0px; 
 	column-count: 1;
-	column-gap: 10px;
+	column-gap: 0px;
 }
 
 
 
-
-
-
-#wrapper {
-background-color: black;
+aside {
+	color: white;
+	width: 95%;
+	padding: 0 20px 5px 20px;
+	Float: none;
+	margin: 10px auto;
 }
+
 
 }
 
@@ -408,6 +430,15 @@ background-color: black;
 @media only screen and (max-width: 479px) {
 
 
+#maincontent p {
+
+	color: white;
+	padding: 5px 15px;
+	margin: 0 5px 20px 5px;
+	font-size: .9em;
+	width: 95%;
+	float: none;
+}
 
 
 
@@ -416,9 +447,6 @@ header nav {
 } 
 
 
-#wrapper {
-background-color: gray;
-}
 
 #logo {
 	float: none; 
@@ -436,16 +464,31 @@ header li {
 	
 }
 
+#halleydetail {
+	margin: 0 auto; 
+	width: 95%;
+}
+
 
 #halleydetail p {
-	font-size: 1.2em; 
+	margin: 0; 
+	font-size: 1em; 
 	-moz-column-count: 1;
-	-moz-column-gap: 10px; 
+	-moz-column-gap: 0px; 
 	-o-column-count: 1;
-	-o-column-gap: 10px; 
+	-o-column-gap: 0px; 
 	-webkit-column-count: 1;
-	-webkit-column-gap: 10px; 
+	-webkit-column-gap: 0px; 
 	column-count: 1;
-	column-gap: 10px;
+	column-gap: 0px;
+}
+
+
+aside {
+	color: white;
+	width: 95%;
+	padding: 0 20px 5px 20px;
+	Float: none;
+	margin: 10px auto;
 }
 }
