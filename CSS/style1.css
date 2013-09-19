@@ -346,12 +346,16 @@ wrapper {
 }
 
 
-
+article {
+	text-indent: -990000px;
+}
 
 
 }
 
-/* mobile landscape size to tablet standard (devices and browser) */
+/* mobile landscape size to tablet standard (devices and browser) -------------------
+-------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------*/
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 
@@ -373,9 +377,6 @@ header nav {
 	float: none;
 } 
 
-
-
-
 #logo {
 	float: none;
 	margin: 10px auto 15px auto;
@@ -391,6 +392,28 @@ header li {
 	border-radius: 5px;
 	
 }
+
+
+h2, h3 {  
+	padding-top: 40px;
+	text-align: center; 
+	margin: 50px auto 20px auto; 	
+}
+
+
+#mainphotosection img {
+	 
+	float: none; 
+	margin: 10px auto;
+	width: 85%;
+}
+
+#mainphotosection p {
+	
+	font-size: 1em;
+	padding: 0 10px;
+	width: 85%;
+}	
 
 
 #halleydetail {
@@ -422,10 +445,25 @@ aside {
 	margin: 10px auto;
 }
 
+article {
+	text-indent: -990000px;
+	margin: 0;
+}
+
+footer div {
+	margin: 0 auto;
+	text-align: center;
+}
+
+footer nav {
+	display: none;
+}
 
 }
 
-/* mobile portrait size to mobile landscape  portrait (devices and browser) */
+/* mobile portrait size to mobile landscape  portrait (devices and browser) -------------
+-----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------- */
 
 @media only screen and (max-width: 479px) {
 
@@ -464,6 +502,28 @@ header li {
 	
 }
 
+h2, h3 {  
+	font-size: 1.5em;
+	padding-top: 40px;
+	text-align: center; 
+	margin: 50px auto 20px auto; 	
+}
+
+
+#mainphotosection img {
+	 
+	float: none; 
+	margin: 10px auto;
+	width: 85%;
+}
+
+#mainphotosection p {
+	
+	font-size: 1em;
+	padding: 0 10px;
+	width: 85%;
+}	
+	
 #halleydetail {
 	margin: 0 auto; 
 	width: 95%;
@@ -491,4 +551,20 @@ aside {
 	Float: none;
 	margin: 10px auto;
 }
+
+article {
+	text-indent: -990000px;
+	margin: 0;
+}
+	
+	
+footer div {
+	margin: 0 auto;
+	text-align: center;
+}
+
+footer nav {
+	display: none;
+}
+
 }
