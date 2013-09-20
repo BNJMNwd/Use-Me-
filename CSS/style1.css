@@ -151,17 +151,17 @@ h2, h3, h4 {
  
 dl { 
 	list-style-type: none;
-	width: 95.2083333% ;/* 914px; */
+	width: 96.875%; /* 930px; */
 	margin: 0 auto; 
 	border-radius: .7291667%;
-	padding: .7291667%;
+	padding: .625%;
 	background-color: rgba(126, 126, 126, .6);
 	overflow: hidden;
 }
 
 dl li {
 	float: left; 
-	Margin: .7291667%;	
+	Margin: .625%;%;	
 	}
 
 .gallery {
@@ -177,13 +177,14 @@ dl li {
 /*-------gallery end--------*/
 
 #halleydetail {
+	width: 96.875%; /* 930px; */
+	padding: 15px 0 0 0;
 	margin: 0 auto;
 }
 #halleydetail p {
 	color: #5F81C1;
 	font-size: .75em; 
-	padding: 20px;
-	margin: 20px;  
+	padding: 20px; 
 	width:  91.666666666%;  /*880px;*/
 	-moz-column-count: 3;
 	-moz-column-gap: 10px; 
@@ -326,11 +327,12 @@ wrapper {
 }
 
 #mainphotosection p {
-	margin: 0 auto;
+	margin: 15px auto;
 	text-align: center;
 	font-size: 1em;
 	width: 85%;
 }	
+
 
 #halleydetail p {
 	font-size: 1.5 em; 
@@ -345,14 +347,7 @@ wrapper {
 }
 
 
-#mainphotosection img {
-	float: none; 
-	margin: 0 auto;
-}
 
-#mainphotosection p {	
-	margin: 15px auto;
-}
 
 
 article {
@@ -522,6 +517,8 @@ header nav {
 	margin: 10px auto 15px auto;
 }
 
+
+
 header li {
 	font-size: 1.5 em; 
 	float: none; 
@@ -532,6 +529,14 @@ header li {
 	border-radius: 5px;
 	
 }
+
+ 
+
+
+
+
+
+
 
 h2, h3, h4 {  
 	font-size: 1.5em;
@@ -562,7 +567,7 @@ h2, h3, h4 {
 
 
 #halleydetail p {
-	margin: 0; 
+	margin: 0 auto; 
 	font-size: 1em; 
 	-moz-column-count: 1;
 	-moz-column-gap: 0px; 
