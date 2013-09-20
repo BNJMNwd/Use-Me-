@@ -11,7 +11,7 @@ body {
 }
 	
 body p {
-	margin 10px 0 0 0; 
+	margin: 10px 0 0 0; 
 }
 
 #wrapper {
@@ -27,14 +27,12 @@ body p {
 	box-shadow: 		2px 0px 5px #172742, -2px 0px 5px #172742; 
 	 
 }
-/*----- Header ----------*/
-Header {
+/*----- header ----------*/
+header {
 	background-image: -o-linear-gradient(bottom, #5F82C1 20%, #5F82C1 48%, #7E7E7E 83%);
 	background-image: -moz-linear-gradient(bottom, #5F82C1 20%, #5F82C1 48%, #7E7E7E 83%);
 	background-image: -webkit-linear-gradient(bottom, #5F82C1 20%, #5F82C1 48%, #7E7E7E 83%);
 	background-image: -ms-linear-gradient(bottom, #5F82C1 20%, #5F82C1 48%, #7E7E7E 83%);
-	background-image: linear-gradient(bottom, #5F82C1 20%, #5F82C1 48%, #7E7E7E 83%);
-	
 }
 	
 header li, footer li {
@@ -51,7 +49,7 @@ header li {
 	width: 140px; 
 }
 
-Header a:link {
+header a:link {
 	text-decoration: none;
 	height: 35px; 
 	line-height: 35px;
@@ -59,19 +57,18 @@ Header a:link {
 	color: white; 
 	background-color: #5F81C1; 
 	display: block; 
-	outline: none;
-	
+	outline: none;	
 } 
 
-Header a:visited {
+header a:visited {
 	color: white; 
 }
 
-Header a:hover {
+header a:hover {
 	color: #0E2755; 
 }
 
-Header a:active {
+header a:active {
 	color: #C5A931; 
 }
 
@@ -161,18 +158,16 @@ dl {
 
 dl li {
 	float: left; 
-	Margin: .625%;%;	
+	Margin: .625%;	
 	}
 
 .gallery {
 	border: 1px solid white;
 	display: block;
-	width: 297; 
+	width: 297px; 
 	height: 195px;
 	outline: 0;   
 }
-
-
 
 /*-------gallery end--------*/
 
@@ -200,16 +195,14 @@ dl li {
 	clear: both; 
 }
 
-
-
 #maincontent p {
 
 	color: white;
 	padding: 5px 15px;
-	margin: 0 5px 20px 5px;
+	margin:  0 auto 20px;
 	font-size: .9em;
 	width: 56.25%;
-	float: left;
+	text-align: center;
 }
 
 /*-------fun facts-------*/
@@ -227,7 +220,6 @@ aside {
 }
 
 /*-------fun facts end-------*/
-
 
 article {
 	color: #C5A931; 
@@ -248,13 +240,11 @@ footer {
 	margin-top: 30px; 
 }
 
-
 footer nav {
 	padding-right: 10px;
 	float: right;
 	font-size: 1.5em; 
-	width: 41.666666666% /*400px;*/
-	
+	width: 41.666666666% /*400px;*/	
 }
 
 footer li {
@@ -271,13 +261,11 @@ footer a:link {
 	line-height: 25px;
 	color: white; 
 	display: block; 
- 	
 } 
 
 footer a:visited {
 	color: white; 
 }
-
 
 footer a:hover {
 	color: #0E2755; 
@@ -302,22 +290,17 @@ footer a:active {
 
 
 body {  
-	background-color:#5F81C1;   
-	
-	
+	background-color: #5F81C1;   	
+}	
+
 #wrapper {
-background-color: none;
-}
-
-}
-
-wrapper {
+	background-color: transparent;
 	-moz-box-shadow: 	none; 
 	-o-box-shadow:		none;  
 	-webkit-box-shadow: none; 
 	box-shadow: 		none; 
+	border: none;
 }
-
 
 #mainphotosection img {
 	float: none; 
@@ -331,11 +314,12 @@ wrapper {
 	text-align: center;
 	font-size: 1em;
 	width: 85%;
+	clear: left;
 }	
 
 
 #halleydetail p {
-	font-size: 1.5 em; 
+	font-size: 1.5em; 
 	-moz-column-count: 2;
 	-moz-column-gap: 10px; 
 	-o-column-count: 2;
@@ -346,10 +330,6 @@ wrapper {
 	column-gap: 10px;
 }
 
-
-
-
-
 article {
 	text-indent: -990000px;
 }
@@ -357,7 +337,6 @@ article {
 footer nav {
 	display: none;
 }
-
 
 }
 
@@ -367,12 +346,20 @@ footer nav {
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 
+body {  
+	background-color: #5F81C1;   	
+}	
+
 #wrapper {
-background-color: none;
-}
+	background-color: transparent;
+	-moz-box-shadow: 	none; 
+	-o-box-shadow:		none;  
+	-webkit-box-shadow: none; 
+	box-shadow: 		none; 
+	border: none;
+	}
 
 #maincontent p {
-
 	color: white;
 	padding: 5px 15px;
 	margin: 0 5px 20px 5px;
@@ -387,7 +374,6 @@ background-color: none;
 	margin: 0 auto 20px auto; 
 }
 
-
 header nav {
 	float: none;
 	margin-top: 40px;
@@ -399,16 +385,14 @@ header nav {
 }
 
 header li {
-	font-size: 1.5 em; 
+	font-size: 1.5em; 
 	float: none; 
 	width: 300px; 
 	margin: 0 auto; 
 	margin-bottom: 5px; 
 	border: 2px solid white;
 	border-radius: 5px;
-	
 }
-
 
 h2, h3, h4 {  
 	padding-top: 40px;
@@ -430,12 +414,10 @@ h2, h3, h4 {
 	width: 85%;
 }	
 
-
 #halleydetail {
 	width: 95%;
 	margin: 0 auto;
 }
-
 
 #halleydetail p {
 	margin: 0;
@@ -488,6 +470,18 @@ footer nav {
 
 @media only screen and (max-width: 479px) {
 
+body {  
+	background-color: #5F81C1;   	
+}	
+
+#wrapper {
+	background-color: transparent;
+	-moz-box-shadow: 	none; 
+	-o-box-shadow:		none;  
+	-webkit-box-shadow: none; 
+	box-shadow: 		none; 
+	border: none;
+}
 
 #maincontent p {
 
@@ -510,17 +504,13 @@ header nav {
 	margin-top: 40px;
 } 
 
-
-
 #logo {
 	float: none; 
 	margin: 10px auto 15px auto;
 }
 
-
-
 header li {
-	font-size: 1.5 em; 
+	font-size: 1.5em; 
 	float: none; 
 	width: 200px; 
 	margin: 0 auto; 
@@ -529,13 +519,6 @@ header li {
 	border-radius: 5px;
 	
 }
-
- 
-
-
-
-
-
 
 
 h2, h3, h4 {  
